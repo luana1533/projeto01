@@ -32,13 +32,13 @@
 }
 
 .profile {
-    width: 50%;
+    width: 100%;
     border-bottom: 2px solid #eeeeee;
 }
 
-.profile .profile-image {
-    width: 50%;
-    border-radius: 50%;
+.profile .imgluana {
+    width: 150%;
+    border-radius: 150%;
 }
 
 .name {
