@@ -17,7 +17,7 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #866430;
+    background-color: #866430; 
 }
 
 .right-section {
@@ -27,7 +27,7 @@
     border-radius: 0px 60px 0px 0px;
 }
 
-.left-section-contents{
+.left-section-contents {
     padding: 2rem 2rem;
 }
 
@@ -44,17 +44,17 @@
 
 .name {
     color: #D6DBDF;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
     margin-bottom: 12px;
     text-align: center;
     text-transform: uppercase;
-    
+
 }
 
 .profession {
     color: #eeeeee;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 12px;
     text-transform: uppercase;
     text-align: center;
@@ -87,6 +87,7 @@
     padding-top: 1.5rem;
     margin-bottom: 12px;
 }
+
 .skills ul li p {
     padding: .4rem 0;
     margin-bottom: 12px;
@@ -98,14 +99,14 @@
 }
 
 .right-title {
-    padding-left: 20px;
-    color: #0e0c0c
-    ;
+    padding-left: 40px;
+    color: #0e0c0c;
 }
 
 .gap {
     padding-bottom: 2rem;
 }
+
 .about-me-contents {
     font-size: 18px;
     color: #0e0c0c;
@@ -119,24 +120,35 @@
     margin-top: 5px
 }
 
-.right-title{
-    padding-left: 30px;  
-}
-
-.exp-company-name{
+.exp-company-name {
     padding-left: 30px;
 }
 
-.exp-time-period{
+.exp-time-period {
     padding-left: 30px;
 }
+
 .exp-position {
     padding: .4rem 0;
     margin-bottom: 12px;
     font-weight: bold;
-    padding-left: 500px;
+    padding-left: 30px;
 }
 
 .experiencia {
-    padding-left: 500px;
+    padding-left: 30px;
+}
+
+.experience-contents {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr)
+}
+
+.duas-colunas {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
 }
